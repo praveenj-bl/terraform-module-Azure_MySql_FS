@@ -61,6 +61,6 @@ variable "sku_name" {
 }
 
 variable "nsg_name" {
-  type = string
+  type    = string
   default = "test-nsg"
 }
